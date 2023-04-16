@@ -10,8 +10,8 @@ export default function Username() {
   return (
     <div className="App">
       <h1>Click the button to get a random username!</h1>
-      <button onClick={() => setUsername(getRanName)}>Generate</button>
-      <div>{username}</div>
+      <button onClick={() => setUsername()}>Generate</button>
+      <div>{getRanName(username)}</div>
     </div>
   );
 }
