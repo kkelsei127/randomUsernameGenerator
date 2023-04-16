@@ -1,5 +1,5 @@
 [
-    {"username": "test"},
-    {"username": "test2"},
-    {"username": "test3"}
+    "test",
+    "test2",
+    "test3"
 ]
